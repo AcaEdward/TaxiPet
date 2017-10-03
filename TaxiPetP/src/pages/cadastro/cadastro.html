@@ -6,38 +6,34 @@
 
 <ion-content>
   <form>
-    <div>
       <div class="form-group">
-          <label class="item item-input">
-            <span class="input-label">Nome :*</span>
-            <input type="text" class="form-control" ng-model="currentUser.firstName" required>
-          </label>
-        </div>
-    
-        <div class="form-group">
-          <label class="item item-input">
-            <span class="input-label">Sobrenome :*</span>
-            <input type="text" class="form-control" ng-model="currentUser.lastName" required>
-          </label>
-        </div>
-        
-        <div class="form-group">
-          <label class="item item-input">
-            <span class="input-label">CNH :*</span>
-            <input type="text" class="form-control" ng-model="currentUser.cnh" required>
-          </label>
-        </div>
-        
-        <div class="form-group">
-          <label class="item item-input">
-            <span class="input-label">Sobrenome :*</span>
-            <input type="text" class="form-control" ng-model="currentUser.lastName" required>
-          </label>
-        </div>
-    
-        <button type="submit" class="btn btn-primary">Cadastrar</button>
+        <label class="item item-input">
+          <span class="input-label">Nome :*</span>
+        </label>
+        <input type="text" class="form-control" ng-model="currentUser.firstName" required>
+      </div>
 
-    </div>
+      <div class="form-group">
+        <label class="item item-input">
+          <span class="input-label">Sobrenome :*</span>
+        </label>
+        <input type="text" class="form-control" ng-model="currentUser.lastName" required>
+      </div>
+
+      <div class="form-group">
+        <label class="item item-input">
+          <span class="input-label">CNH :*</span>
+        </label>
+        <input type="text" class="form-control" ng-model="currentUser.cnh" required>
+      </div>
+
+      <div class="form-group">
+        <label class="item item-input">
+          <span class="input-label">Sobrenome :*</span>
+        </label>
+        <input type="text" class="form-control" ng-model="currentUser.lastName" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-group-vertical button">Cadastrar</button>
   </form>
-
 </ion-content>

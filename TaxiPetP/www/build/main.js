@@ -155,6 +155,7 @@ ContactPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cadastro_cadastro__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__login_login__ = __webpack_require__(267);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -169,27 +170,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var HomePage = (function () {
-    // private url: string = "https://www.reddit.com/new.json";
     function HomePage(navCtrl, http) {
         this.navCtrl = navCtrl;
         this.http = http;
         this.url = "img/logo.jpg";
-        //
-        //    this.http.get(this.url).map(res => res.json()).subscribe(data => {
-        //        this.feeds = data.data.children;
-        //    });
     }
-    HomePage.prototype.goToLogin = function () {
-        //push another page onto the history stack
-        //causing the nav controller to animate the new page in
+    HomePage.prototype.goToCadastro = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__cadastro_cadastro__["a" /* CadastroPage */]);
+    };
+    HomePage.prototype.goToLogin = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__login_login__["a" /* LoginPage */]);
     };
     return HomePage;
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  \n  <img src="{{url}}" alt="your image">\n  <ion-list>\n    <ion-item *ngFor="let feed of feeds">\n      <ion-thumbnail item-left>\n        <img [src]="feed.data.thumbnail">\n      </ion-thumbnail>\n    </ion-item>\n  </ion-list>\n\n  <div class="btn-group-vertical button">\n    <button type="button" class="btn btn-primary">\n      <i class="fa fa-lock"></i> Acesso\n    </button>\n    <br />\n    <button type="button" class="btn btn-info" (click)="goToLogin()">\n      <i class="fa fa-plus"></i> Cadastro\n    </button>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <img src="{{url}}" alt="your image">\n  <ion-list>\n    <ion-item *ngFor="let feed of feeds">\n      <ion-thumbnail item-left>\n        <img [src]="feed.data.thumbnail">\n      </ion-thumbnail>\n    </ion-item>\n  </ion-list>\n\n  <div class="btn-group-vertical button">\n    <button type="button" class="btn btn-primary" (click)="goToLogin()">\n      <i class="fa fa-lock"></i> Acesso\n    </button>\n    <br />\n    <button type="button" class="btn btn-info" (click)="goToCadastro()">\n      <i class="fa fa-plus"></i> Cadastro\n    </button>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
 ], HomePage);
@@ -221,7 +219,7 @@ var CadastroPage = (function () {
 }());
 CadastroPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-cadastro',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/src/pages/cadastro/cadastro.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Cadastro</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <form>\n    <div>\n      <div class="form-group">\n          <label class="item item-input">\n            <span class="input-label">Nome :*</span>\n            <input type="text" class="form-control" ng-model="currentUser.firstName" required>\n          </label>\n        </div>\n    \n        <div class="form-group">\n          <label class="item item-input">\n            <span class="input-label">Sobrenome :*</span>\n            <input type="text" class="form-control" ng-model="currentUser.lastName" required>\n          </label>\n        </div>\n        \n        <div class="form-group">\n          <label class="item item-input">\n            <span class="input-label">CNH :*</span>\n            <input type="text" class="form-control" ng-model="currentUser.cnh" required>\n          </label>\n        </div>\n        \n        <div class="form-group">\n          <label class="item item-input">\n            <span class="input-label">Sobrenome :*</span>\n            <input type="text" class="form-control" ng-model="currentUser.lastName" required>\n          </label>\n        </div>\n    \n        <button type="submit" class="btn btn-primary">Cadastrar</button>\n\n    </div>\n  </form>\n\n</ion-content>'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/src/pages/cadastro/cadastro.html"*/
+        selector: 'page-cadastro',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/src/pages/cadastro/cadastro.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Cadastro</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <form>\n      <div class="form-group">\n        <label class="item item-input">\n          <span class="input-label">Nome :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.firstName" required>\n      </div>\n\n      <div class="form-group">\n        <label class="item item-input">\n          <span class="input-label">Sobrenome :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.lastName" required>\n      </div>\n\n      <div class="form-group">\n        <label class="item item-input">\n          <span class="input-label">CNH :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.cnh" required>\n      </div>\n\n      <div class="form-group">\n        <label class="item item-input">\n          <span class="input-label">Sobrenome :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.lastName" required>\n      </div>\n\n      <button type="submit" class="btn btn-primary btn-group-vertical button">Cadastrar</button>\n  </form>\n</ion-content>'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/src/pages/cadastro/cadastro.html"*/
     })
 ], CadastroPage);
 
@@ -258,14 +256,16 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_about_about__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contact_contact__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_cadastro_cadastro__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__ = __webpack_require__(191);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -292,6 +292,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_7__pages_about_about__["a" /* AboutPage */],
             __WEBPACK_IMPORTED_MODULE_8__pages_contact_contact__["a" /* ContactPage */],
             __WEBPACK_IMPORTED_MODULE_9__pages_cadastro_cadastro__["a" /* CadastroPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_login_login__["a" /* LoginPage */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* HttpModule */],
@@ -306,10 +307,11 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_7__pages_about_about__["a" /* AboutPage */],
             __WEBPACK_IMPORTED_MODULE_8__pages_contact_contact__["a" /* ContactPage */],
             __WEBPACK_IMPORTED_MODULE_9__pages_cadastro_cadastro__["a" /* CadastroPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_login_login__["a" /* LoginPage */],
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_2__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["b" /* IonicErrorHandler */] }
         ]
     })
@@ -362,6 +364,37 @@ MyApp = __decorate([
 ], MyApp);
 
 //# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 267:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var LoginPage = (function () {
+    function LoginPage() {
+    }
+    return LoginPage;
+}());
+LoginPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-login',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/src/pages/login/login.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>Acesso</ion-title>\n    </ion-navbar>\n</ion-header>'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/src/pages/login/login.html"*/
+    })
+], LoginPage);
+
+//# sourceMappingURL=login.js.map
 
 /***/ })
 

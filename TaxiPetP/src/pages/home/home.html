@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content>
-  
+
   <img src="{{url}}" alt="your image">
   <ion-list>
     <ion-item *ngFor="let feed of feeds">
@@ -16,11 +16,11 @@
   </ion-list>
 
   <div class="btn-group-vertical button">
-    <button type="button" class="btn btn-primary">
+    <button type="button" class="btn btn-primary" (click)="goToLogin()">
       <i class="fa fa-lock"></i> Acesso
     </button>
     <br />
-    <button type="button" class="btn btn-info" (click)="goToLogin()">
+    <button type="button" class="btn btn-info" (click)="goToCadastro()">
       <i class="fa fa-plus"></i> Cadastro
     </button>
   </div>

@@ -4,9 +4,9 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 @Component({
-  selector: 'page-cadastro',
-  templateUrl: 'cadastro.html'
+  selector: 'page-login',
+  templateUrl: 'login.html'
 })
-export class CadastroPage {
+export class LoginPage {
   
 }
