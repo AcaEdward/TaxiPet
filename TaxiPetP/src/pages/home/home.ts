@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
-import { TestPage } from '../test/test';
+import { CadastroPage } from '../cadastro/cadastro';
 
 @Component({
   selector: 'page-home',
@@ -25,7 +25,7 @@ export class HomePage {
   goToLogin() {
   //push another page onto the history stack
   //causing the nav controller to animate the new page in
-  this.navCtrl.push(TestPage);
+  this.navCtrl.push(CadastroPage);
 }
 
 

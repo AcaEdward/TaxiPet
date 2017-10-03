@@ -25199,18 +25199,18 @@ ion-navbar.toolbar {
   }
 }
 
+.button {
+  margin-left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
 .label {
   color: #4f4b4b;
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
   font-size: 18px;
-}
-
-.button {
-  margin-left: 50%;
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
 }
 
 .button {

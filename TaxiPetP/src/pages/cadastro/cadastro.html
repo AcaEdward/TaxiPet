@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Cadastro</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <form>
+    <div>
+      <div class="form-group">
+          <label class="item item-input">
+            <span class="input-label">Nome :*</span>
+            <input type="text" class="form-control" ng-model="currentUser.firstName" required>
+          </label>
+        </div>
+    
+        <div class="form-group">
+          <label class="item item-input">
+            <span class="input-label">Sobrenome :*</span>
+            <input type="text" class="form-control" ng-model="currentUser.lastName" required>
+          </label>
+        </div>
+        
+        <div class="form-group">
+          <label class="item item-input">
+            <span class="input-label">CNH :*</span>
+            <input type="text" class="form-control" ng-model="currentUser.cnh" required>
+          </label>
+        </div>
+        
+        <div class="form-group">
+          <label class="item item-input">
+            <span class="input-label">Sobrenome :*</span>
+            <input type="text" class="form-control" ng-model="currentUser.lastName" required>
+          </label>
+        </div>
+    
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+
+    </div>
+  </form>
+
+</ion-content>

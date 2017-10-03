@@ -5,23 +5,22 @@
 </ion-header>
 
 <ion-content>
+  
   <img src="{{url}}" alt="your image">
   <ion-list>
     <ion-item *ngFor="let feed of feeds">
       <ion-thumbnail item-left>
         <img [src]="feed.data.thumbnail">
       </ion-thumbnail>
-      <!-- <h2>{{feed.data.title}}</h2>
-      <p>{{feed.data.domain}}</p> -->
     </ion-item>
   </ion-list>
 
   <div class="btn-group-vertical button">
-    <button type="button" class="btn btn-primary" (click)="goToLogin()">
+    <button type="button" class="btn btn-primary">
       <i class="fa fa-lock"></i> Acesso
     </button>
     <br />
-    <button type="button" class="btn btn-info">
+    <button type="button" class="btn btn-info" (click)="goToLogin()">
       <i class="fa fa-plus"></i> Cadastro
     </button>
   </div>
