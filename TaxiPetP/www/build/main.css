@@ -25210,6 +25210,7 @@ ion-navbar.toolbar {
 
 .button {
   margin-left: 50%;
+  margin-top: 10px;
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
 }

@@ -3,3 +3,25 @@
         <ion-title>Acesso</ion-title>
     </ion-navbar>
 </ion-header>
+
+<ion-content>
+
+    <form>
+        <div class="form-group">
+            <label class="item item-input">
+                <span class="input-label">Usuário :*</span>
+            </label>
+            <input type="text" class="form-control" ng-model="currentUser.firstName" required>
+        </div>
+
+        <div class="form-group">
+            <label class="item item-input">
+                <span class="input-label">Senha :*</span>
+            </label>
+            <input type="text" class="form-control" ng-model="currentUser.lastName" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-group-vertical button">Entrar</button>
+
+    </form>
+</ion-content>
