@@ -1,12 +1,12 @@
 <?php 
 
 class Conexao{
-    private $host = "localhost",
-    private $user = "admin",
-    private $password = "",
-    private $port = "3306",
-    private $con = NULL,
-    private $dbname = "taxi_pet",
+    private $host = "localhost";
+    private $user = "admin";
+    private $password = "";
+    private $port = "3306";
+    private $con = NULL;
+    private $dbname = "taxi_pet";
 
     
     public function open() {
