@@ -9,20 +9,25 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { CadastroPage } from '../pages/cadastro/cadastro';
+import { ClienteCadastroPage } from '../pages/clientecadastro/clientecadastro';
 import { LoginPage } from '../pages/login/login';
+import { UhuPage } from '../pages/uhu/uhu';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { AuthService } from '../providers/authservice/authservice';
 
 @NgModule({
   declarations: [
     MyApp,
+    ClienteCadastroPage,
     HomePage,
     TabsPage,
     AboutPage,
     ContactPage,
     CadastroPage,
     LoginPage,
+    UhuPage,
   ],
   imports: [
     HttpModule,
@@ -36,13 +41,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     AboutPage,
     ContactPage,
+    ClienteCadastroPage,
     CadastroPage,
     LoginPage,
+    UhuPage,
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AuthService
   ]
 })
 export class AppModule {}

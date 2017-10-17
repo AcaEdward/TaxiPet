@@ -8,5 +8,5 @@ import 'rxjs/add/operator/map';
   templateUrl: 'cadastro.html'
 })
 export class CadastroPage {
-  
+
 }

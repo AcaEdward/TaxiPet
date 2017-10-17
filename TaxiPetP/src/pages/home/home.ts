@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import { CadastroPage } from '../cadastro/cadastro';
+import { ClienteCadastroPage } from '../clientecadastro/clientecadastro';
 import { LoginPage } from '../login/login';
 
 import { Platform, ActionSheetController } from 'ionic-angular';
@@ -23,8 +24,11 @@ export class HomePage {
     this.url  = "img/logo.jpg";
   }
 
-  goToCadastro() {
+  goToCadastroM() {
     this.navCtrl.push(CadastroPage);
+  }
+  goToCadastroC() {
+    this.navCtrl.push(ClienteCadastroPage);
   }
 
   goToLogin(){
@@ -41,13 +45,14 @@ export class HomePage {
           icon: !this.platform.is('ios') ? 'trash' : null,
           handler: () => {
             console.log('cadastro motora');
-            this.goToCadastro();
+            this.goToCadastroM();
           }
         },
         {
           text: 'Cliente',
           icon: !this.platform.is('ios') ? 'share' : null,
           handler: () => {
+          this.goToCadastroC();
             console.log('cadastro cliente');
           }
         }/*,
@@ -55,6 +60,7 @@ export class HomePage {
           text: 'Play',
           icon: !this.platform.is('ios') ? 'arrow-dropright-circle' : null,
           handler: () => {
+
             console.log('Play clicked');
           }
         },

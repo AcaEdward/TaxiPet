@@ -18,10 +18,10 @@
             <label class="item item-input">
                 <span class="input-label">Senha :*</span>
             </label>
-            <input type="text" class="form-control" ng-model="currentUser.lastName" required>
+            <input type="text" class="form-control required" ng-model="currentUser.lastName" type="password">
         </div>
 
-        <button type="submit" class="btn btn-primary btn-group-vertical button">Entrar</button>
+        <button type="submit" class="btn btn-primary btn-group-vertical button" (click)="  goToLogadoStrub()">Entrar</button>
 
     </form>
 </ion-content>
