@@ -5,6 +5,6 @@ class UsuarioController{
     private $Usuario;
 }
 
-public function Acesso (){
-
-}
+//public function Acesso (){
+//
+//}

@@ -13,22 +13,22 @@ class Usuario {
     
 }
 
-public function Cadastrar(){
+//public function Cadastrar(){
+//
+//}
 
-}
+//public function Alterar(){
+//
+//}
 
-public function Alterar(){
+//public function Excluir(){
+//
+//}
 
-}
-
-public function Excluir(){
-
-}
-
-public function Listar(){
-    
-}
-
-public function Acesso(){
-    
-}
+//public function Listar(){
+//    
+//}
+//
+//public function Acesso(){
+//    
+//}
