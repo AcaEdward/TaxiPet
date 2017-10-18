@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
-import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import { UhuPage } from '../uhu/uhu';
 
