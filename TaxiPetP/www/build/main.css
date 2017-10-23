@@ -25215,6 +25215,22 @@ ion-navbar.toolbar {
   transform: translate(-50%, 0);
 }
 
+.input-label {
+  text-align: left;
+  padding: 5px 5px 0 5px;
+}
+
+.form-group {
+  margin: 0 5px;
+}
+
+.button {
+  margin-left: 50%;
+  margin-top: 10px;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
 .label {
   color: #4f4b4b;
   font-style: normal;
