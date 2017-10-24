@@ -2,7 +2,7 @@
 
 class Conexao{
     private $host = "localhost";
-    private $user = "admin";
+    private $user = "root";
     private $password = "";
     private $port = "3306";
     private $con = NULL;
