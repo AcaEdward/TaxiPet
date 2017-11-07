@@ -1,13 +1,13 @@
 webpackJsonp([0],{
 
-/***/ 271:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UhuPageModule", function() { return UhuPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "startPageModule", function() { return startPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__uhu__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__start__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -16,20 +16,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 
 
-var UhuPageModule = (function () {
-    function UhuPageModule() {
+var startPageModule = (function () {
+    function startPageModule() {
     }
-    return UhuPageModule;
+    return startPageModule;
 }());
-UhuPageModule = __decorate([
+startPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_1__uhu__["a" /* UhuPage */],
+            __WEBPACK_IMPORTED_MODULE_1__start__["a" /* startPage */],
         ],
     })
-], UhuPageModule);
+], startPageModule);
 
-//# sourceMappingURL=uhu.module.js.map
+//# sourceMappingURL=start.module.js.map
 
 /***/ })
 

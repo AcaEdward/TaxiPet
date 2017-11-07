@@ -11,7 +11,10 @@ import { ContactPage } from '../pages/contact/contact';
 import { CadastroPage } from '../pages/cadastro/cadastro';
 import { ClienteCadastroPage } from '../pages/clientecadastro/clientecadastro';
 import { LoginPage } from '../pages/login/login';
-import { UhuPage } from '../pages/uhu/uhu';
+import { startPage } from '../pages/start/start';
+import { PetPage } from '../pages/pet/pet';
+import { CorridaPage } from '../pages/corrida/corrida';
+import { AnimaisPage } from '../pages/animais/animais';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -27,7 +30,10 @@ import { AuthService } from '../providers/authservice/authservice';
     ContactPage,
     CadastroPage,
     LoginPage,
-    UhuPage,
+    startPage,
+    PetPage,
+    AnimaisPage,
+    CorridaPage,
   ],
   imports: [
     HttpModule,
@@ -44,7 +50,10 @@ import { AuthService } from '../providers/authservice/authservice';
     ClienteCadastroPage,
     CadastroPage,
     LoginPage,
-    UhuPage,
+    startPage,
+    PetPage,
+    AnimaisPage,
+    CorridaPage,
   ],
   providers: [
     StatusBar,

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import 'rxjs/add/operator/map';
 import { NavController } from 'ionic-angular';
-import { UhuPage } from '../uhu/uhu';
+import { startPage } from '../start/start';
 
 @Component({
   selector: 'page-login',
@@ -12,6 +12,6 @@ export class LoginPage {
     public navCtrl: NavController,
   ){}
   goToLogadoStrub(){
-    this.navCtrl.push(UhuPage);
+    this.navCtrl.push(startPage);
   }
 }
