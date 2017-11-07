@@ -92,4 +92,34 @@ public function Acesso($email, $senha) {
     return NULL; 
     }
 }
+
+public function Cadastrar(){
+    $sql = "INSERT INTO usuario (nome_usuario, email_usuario, senha_usuario, cpf_usuario, rg_usuario, telefone_usuario,endereco_usuario, is_admin) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+    
+    $c = new Consulta($sql);
+
+    $dados = array($this->nomeUsuario, $this->emailUsuario, $this->senhaUsuario, $this->cpfUsuario, $this->rgUsuario, $this->TelefoneUsuario, $this->enderecoUsuario, $this->isAdmin);
+
+    if($c->executaConsulta($dados)){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+public function Visualizar($id){
+    $sql = "SELECT * FROM usuario WHERE id_usuario = ?";
+
+    $c = new Consulta($sql);
+
+    $dados = array($id);
+
+    $retorno = $c->executaConsulta($dados);
+    if($retorno -> rowCount() > 0){
+        return $retorno;
+    } else {
+        return NULL;
+    }
+}
+
 }
