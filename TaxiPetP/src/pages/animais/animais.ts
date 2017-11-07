@@ -15,11 +15,27 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class AnimaisPage {
 
+  public items;
+  public gambiarra;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
+  ionViewDidLoad(){
+    this.gambiarra = [
+      {title: 'Nome', especie:'Espécie', raca: "Raça" , description: 'test1'},
+      {title: 'Carlos',especie:'pikachu', raca: "non evolvit" , description: 'test2'},
+      {title: 'Mike', especie:'pikachu', raca: "non evolvit" ,description: 'test3'}
+    ];
+       this.items = [
+         {title: 'Bob', especie:'pikachu', raca: "non evolvit" , description: 'test1'},
+         {title: 'Carlos',especie:'pikachu', raca: "non evolvit" , description: 'test2'},
+         {title: 'Mike', especie:'pikachu', raca: "non evolvit" ,description: 'test3'}
+       ];
     console.log('ionViewDidLoad AnimaisPage');
+  }
+  createEntry(){
+
   }
 
 }
