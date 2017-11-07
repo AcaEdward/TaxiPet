@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Oct 24, 2017 at 11:26 PM
+-- Generation Time: Nov 07, 2017 at 04:41 PM
 -- Server version: 5.7.19
 -- PHP Version: 5.6.31
 
@@ -21,6 +21,26 @@ SET time_zone = "+00:00";
 --
 -- Database: `taxi_pet`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `animal`
+--
+
+DROP TABLE IF EXISTS `animal`;
+CREATE TABLE IF NOT EXISTS `animal` (
+  `id_animal` int(11) NOT NULL AUTO_INCREMENT,
+  `nome_animal` varchar(32) NOT NULL,
+  `especie` varchar(16) NOT NULL,
+  `raca` varchar(16) NOT NULL,
+  `porte` varchar(8) DEFAULT NULL,
+  `vacinas` varchar(128) DEFAULT NULL,
+  `observacoes` varchar(512) DEFAULT NULL,
+  `FK_dono` int(11) NOT NULL,
+  PRIMARY KEY (`id_animal`),
+  KEY `FK_dono` (`FK_dono`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
