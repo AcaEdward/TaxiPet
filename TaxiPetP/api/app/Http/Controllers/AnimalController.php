@@ -25,7 +25,7 @@ class AnimalController extends Controller
      */
     public function create()
     {
-        //
+        return view('animais.create');
     }
 
     /**
@@ -42,7 +42,7 @@ class AnimalController extends Controller
         $animal->especie = $request->especie;
         
         $animal->save();
-        return redirect()->route('animal.index')->with('message', 'Animal cadastrado com sucesso!');
+        return redirect()->route('animais.index')->with('message', 'Animal cadastrado com sucesso!');
     }
 
     /**
@@ -64,7 +64,8 @@ class AnimalController extends Controller
      */
     public function edit($id)
     {
-        //
+        $animal = Product::findOrFail($id);
+        return view('animais.edit',compact('animal'));
     }
 
     /**
@@ -76,7 +77,13 @@ class AnimalController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $animal = Product::findOrFail($id);
+        $animal->name = $request->name;
+        $animal->description = $request->description;
+        $animal->quantity = $request->quantity;
+        $animal->price = $request->price;
+        $animal->save();
+        return redirect()->route('animais.index')->with('message', 'Produto atualizado com sucesso!');
     }
 
     /**
@@ -87,6 +94,8 @@ class AnimalController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $animal = Product::findOrFail($id);
+        $animal->delete();
+        return redirect()->route('animais.index')->with('alert-success','Produto deletado com sucesso!');
     }
 }

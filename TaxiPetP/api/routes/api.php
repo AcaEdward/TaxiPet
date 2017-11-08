@@ -3,15 +3,15 @@
 //use Illuminate\Http\Request;
 
 /*
-|--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
-|
-*/
+  |--------------------------------------------------------------------------
+  | API Routes
+  |--------------------------------------------------------------------------
+  |
+  | Aqui é onde você pode registrar as rotas da API para sua aplicação. Estes
+  | as rotas são carregadas pelo RouteServiceProvider dentro de um grupo que
+  | é atribuído o grupo de middleware "api". Aproveite a construção de sua API!
+  |
+ */
 
 // Route::group('api/', function (Request $request) {
 //     Route::get('animal', function (Request $request) {
@@ -19,13 +19,13 @@
 //     });
 // });
 
-Route::resource('animais', 'AnimalController');
-Route::get('api/animais', 'AnimalController@index')->name('animais.index');
-Route::get('api/animais', 'AnimalController@store')->name('animais.store');
-Route::get('api/animais/{id}', 'AnimalController@show')->name('animais.show');
-Route::get('api/animais/{id}', 'AnimalController@update')->name('animais.update');
-Route::get('api/animais/{id}/edit', 'AnimalController@edit')->name('animais.edit');
-Route::get('api/animais/{id}', 'AnimalController@destroy')->name('animais.destroy');
-Route::get('api/animais/create', 'AnimalController@create')->name('animais.create');
+Route::resource('animais', 'ProductController');
+Route::get('animais', 'AnimalController@index')->name('animais.index');
+Route::get('animais', 'AnimalController@store')->name('animais.store');
+Route::get('animais/{id}', 'AnimalController@show')->name('animais.show');
+Route::get('animais/{id}', 'AnimalController@update')->name('animais.update');
+Route::get('animais/{id}/edit', 'AnimalController@edit')->name('animais.edit');
+Route::get('animais/{id}', 'AnimalController@destroy')->name('animais.destroy');
+Route::get('animais/create', 'AnimalController@create')->name('animais.create');
 
 
