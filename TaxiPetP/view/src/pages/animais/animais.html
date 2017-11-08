@@ -18,6 +18,17 @@
 
 <ion-content>
   <ion-list>
+    <table>
+      <thead>
+        <td>Nome</td>
+        <td>Raça</td>
+        <td>Espécie</td>
+      </thead>
+      <tbody>
+        <tr>{{item.title}}</tr>
+        <tr></tr>
+      </tbody>
+    </table>
     <ion-item>Nome      Raça      Espécie</ion-item>
     <ion-item *ngFor="let item of items" (click)="viewItem(item)">{{item.title}}      {{item.raca}}       {{item.especie}}</ion-item>
   </ion-list>
