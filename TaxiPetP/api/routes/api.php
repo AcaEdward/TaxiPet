@@ -19,7 +19,7 @@
 //     });
 // });
 
-Route::resource('animais', 'ProductController');
+Route::resource('animais', 'AnimalController');
 Route::get('animais', 'AnimalController@index')->name('animais.index');
 Route::get('animais', 'AnimalController@store')->name('animais.store');
 Route::get('animais/{id}', 'AnimalController@show')->name('animais.show');
