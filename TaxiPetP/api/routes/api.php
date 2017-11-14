@@ -28,4 +28,13 @@ Route::get('animais/{id}/edit', 'AnimalController@edit')->name('animais.edit');
 Route::get('animais/{id}', 'AnimalController@destroy')->name('animais.destroy');
 Route::get('animais/create', 'AnimalController@create')->name('animais.create');
 
+Route::resource('usuario', 'UsuarioController');
+Route::get('usuario', 'UsuarioController@index')->name('usuario.index');
+Route::get('usuario', 'UsuarioController@store')->name('usuario.store');
+Route::get('usuario/{id}', 'UsuarioController@show')->name('usuario.show');
+Route::get('usuario/{id}', 'UsuarioController@update')->name('usuario.update');
+Route::get('usuario/{id}/edit', 'UsuarioController@edit')->name('usuario.edit');
+Route::get('usuario/{id}', 'UsuarioController@destroy')->name('usuario.destroy');
+Route::get('usuario/create', 'UsuarioController@create')->name('usuario.create');
+
 

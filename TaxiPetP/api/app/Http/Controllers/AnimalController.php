@@ -77,13 +77,12 @@ class AnimalController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $animal = Product::findOrFail($id);
-        $animal->name = $request->name;
-        $animal->description = $request->description;
-        $animal->quantity = $request->quantity;
-        $animal->price = $request->price;
+        $animal = Animal::findOrFail($id);
+        $animal->nome = $request->nome;
+        $animal->raca = $request->raca;
+        $animal->especie = $request->especie;
         $animal->save();
-        return redirect()->route('animais.index')->with('message', 'Produto atualizado com sucesso!');
+        return redirect()->route('animais.index')->with('message', 'Animal atualizado com sucesso!');
     }
 
     /**
@@ -94,8 +93,8 @@ class AnimalController extends Controller
      */
     public function destroy($id)
     {
-        $animal = Product::findOrFail($id);
+        $animal = Animal::findOrFail($id);
         $animal->delete();
-        return redirect()->route('animais.index')->with('alert-success','Produto deletado com sucesso!');
+        return redirect()->route('animais.index')->with('alert-success','Animal deletado com sucesso!');
     }
 }
