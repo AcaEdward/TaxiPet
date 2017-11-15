@@ -52,10 +52,9 @@ class UsuarioController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Usuario  $usuario
      * @return \Illuminate\Http\Response
      */
-    public function show(Usuario $id)
+    public function show($id)
     {
         //
     }
@@ -63,10 +62,9 @@ class UsuarioController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Usuario  $usuario
      * @return \Illuminate\Http\Response
      */
-    public function edit(Usuario $id)
+    public function edit($id)
     {
         $usuario = Product::findOrFail($id);
         return view('usuario.edit',compact('usuario'));
@@ -76,10 +74,9 @@ class UsuarioController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Usuario  $usuario
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Usuario $id)
+    public function update(Request $request, $id)
     {
         $usuario = Usuario::findOrFail($id);
         $usuario->nome = $request->nome;
@@ -98,10 +95,9 @@ class UsuarioController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Usuario  $usuario
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Usuario $id)
+    public function destroy($id)
     {
         $usuario = Usuario::findOrFail($id);
         $animal->delete();

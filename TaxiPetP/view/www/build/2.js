@@ -1,14 +1,14 @@
 webpackJsonp([2],{
 
-/***/ 275:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CorridaPageModule", function() { return CorridaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormAddAnimalPageModule", function() { return FormAddAnimalPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__corrida__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__form_add_animal__ = __webpack_require__(101);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var CorridaPageModule = (function () {
-    function CorridaPageModule() {
+var FormAddAnimalPageModule = (function () {
+    function FormAddAnimalPageModule() {
     }
-    return CorridaPageModule;
+    return FormAddAnimalPageModule;
 }());
-CorridaPageModule = __decorate([
+FormAddAnimalPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__corrida__["a" /* CorridaPage */],
+            __WEBPACK_IMPORTED_MODULE_2__form_add_animal__["a" /* FormAddAnimalPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__corrida__["a" /* CorridaPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__form_add_animal__["a" /* FormAddAnimalPage */]),
         ],
     })
-], CorridaPageModule);
+], FormAddAnimalPageModule);
 
-//# sourceMappingURL=corrida.module.js.map
+//# sourceMappingURL=form-add-animal.module.js.map
 
 /***/ })
 

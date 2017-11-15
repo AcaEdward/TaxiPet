@@ -1,13 +1,105 @@
-webpackJsonp([5],{
+webpackJsonp([6],{
 
 /***/ 100:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CorridaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the CorridaPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var CorridaPage = (function () {
+    function CorridaPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    CorridaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CorridaPage');
+    };
+    return CorridaPage;
+}());
+CorridaPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-corrida',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/corrida/corrida.html"*/'<!--\n  Generated template for the CorridaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>corrida</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/corrida/corrida.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], CorridaPage);
+
+//# sourceMappingURL=corrida.js.map
+
+/***/ }),
+
+/***/ 101:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FormAddAnimalPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the FormAddAnimalPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var FormAddAnimalPage = (function () {
+    function FormAddAnimalPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    FormAddAnimalPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad FormAddAnimalPage');
+    };
+    return FormAddAnimalPage;
+}());
+FormAddAnimalPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-form-add-animal',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/form-add-animal/form-add-animal.html"*/'<!--\n  Generated template for the FormAddAnimalPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>formAddAnimal</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <div class = "animais">\n    <ion-item>\n      <ion-label floating class="input">Username</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n \n    <ion-item>\n      <ion-label floating class="input">Espécie</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label floating class="input">Raça</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label floating class="input">Idade</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n </div>\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/form-add-animal/form-add-animal.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], FormAddAnimalPage);
+
+//# sourceMappingURL=form-add-animal.js.map
+
+/***/ }),
+
+/***/ 102:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Animais2Page; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__form_add_animal_form_add_animal__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__form_add_animal_form_add_animal__ = __webpack_require__(101);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -52,7 +144,7 @@ var Animais2Page = (function () {
 Animais2Page = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-animais2',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/animais2/animais2.html"*/'<!--\n  Generated template for the Animais2Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="secondary">\n    <ion-title>\n      Seus Animais\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()"><ion-icon name="add-circle"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n  <ion-list>\n    <table>\n      <tbody>  \n        <tr></tr>\n      </tbody>\n    </table>\n    <ion-item>Nome      Raça      Espécie</ion-item>\n    <ion-item *ngFor="let item of items" (click)="viewItem(item)">{{item.title}}      {{item.raca}}       {{item.especie}}</ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/animais2/animais2.html"*/,
+        selector: 'page-animais2',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/animais2/animais2.html"*/'<!--\n  Generated template for the Animais2Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="secondary">\n    <ion-title>\n      Seus Animais\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()"><ion-icon name="add-circle"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n  <ion-list>\n    <table>\n      <tbody>  \n        <tr></tr>\n      </tbody>\n    </table>\n    <ion-item>Nome      Raça      Espécie</ion-item>\n    <ion-item *ngFor="let item of items" (click)="viewItem(item)">{{item.title}}      {{item.raca}}       {{item.especie}}</ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/animais2/animais2.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
 ], Animais2Page);
@@ -61,7 +153,7 @@ Animais2Page = __decorate([
 
 /***/ }),
 
-/***/ 101:
+/***/ 103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -98,7 +190,7 @@ var PetPage = (function () {
 PetPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-pet',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/pet/pet.html"*/'<!--\n  Generated template for the PetPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>pet</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/pet/pet.html"*/,
+        selector: 'page-pet',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/pet/pet.html"*/'<!--\n  Generated template for the PetPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>pet</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/pet/pet.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
 ], PetPage);
@@ -107,16 +199,16 @@ PetPage = __decorate([
 
 /***/ }),
 
-/***/ 102:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return startPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__corrida_corrida__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__animais2_animais2__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pet_pet__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__corrida_corrida__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__animais2_animais2__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pet_pet__ = __webpack_require__(103);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -160,7 +252,7 @@ var startPage = (function () {
 startPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-start',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/start/start.html"*/'<!--\n  Generated template for the UhuPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Painel de controle</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<!--<img src="{{url}}" alt="your image">-->\n<button ion-button small (click)=" paginacorrida()">\n  <ion-icon name="star"></ion-icon>\n  Realizar corrida\n</button>\n<button ion-button full (click)=" PaginaAnimais()">Gerenciar animais</button>\n<button ion-button full (click)="  paginaPetshops()">Buscar Petshop</button>\n<button ion-button full>Editar Dados</button>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/start/start.html"*/,
+        selector: 'page-start',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/start/start.html"*/'<!--\n  Generated template for the UhuPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Painel de controle</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<!--<img src="{{url}}" alt="your image">-->\n<button ion-button small (click)=" paginacorrida()">\n  <ion-icon name="star"></ion-icon>\n  Realizar corrida\n</button>\n<button ion-button full (click)=" PaginaAnimais()">Gerenciar animais</button>\n<button ion-button full (click)="  paginaPetshops()">Buscar Petshop</button>\n<button ion-button full>Editar Dados</button>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/start/start.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
 ], startPage);
@@ -169,7 +261,7 @@ startPage = __decorate([
 
 /***/ }),
 
-/***/ 111:
+/***/ 113:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -182,37 +274,37 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 111;
+webpackEmptyAsyncContext.id = 113;
 
 /***/ }),
 
-/***/ 153:
+/***/ 155:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/animais/animais.module": [
-		279,
-		12
+		282,
+		5
 	],
 	"../pages/animais2/animais2.module": [
-		276,
-		11
+		279,
+		4
 	],
 	"../pages/corrida/corrida.module": [
-		275,
-		10
+		277,
+		3
 	],
 	"../pages/form-add-animal/form-add-animal.module": [
-		280,
-		7
+		278,
+		2
 	],
 	"../pages/pet/pet.module": [
-		277,
-		9
+		280,
+		1
 	],
 	"../pages/start/start.module": [
-		278,
-		8
+		281,
+		0
 	]
 };
 function webpackAsyncContext(req) {
@@ -226,20 +318,20 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 153;
+webpackAsyncContext.id = 155;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 197:
+/***/ 199:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(202);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -262,7 +354,7 @@ var TabsPage = (function () {
     return TabsPage;
 }());
 TabsPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n\n</ion-tabs>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/tabs/tabs.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n\n</ion-tabs>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/tabs/tabs.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], TabsPage);
@@ -271,7 +363,7 @@ TabsPage = __decorate([
 
 /***/ }),
 
-/***/ 198:
+/***/ 200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -297,7 +389,7 @@ var AboutPage = (function () {
 }());
 AboutPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-about',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/about/about.html"*/
+        selector: 'page-about',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/about/about.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
 ], AboutPage);
@@ -306,7 +398,7 @@ AboutPage = __decorate([
 
 /***/ }),
 
-/***/ 199:
+/***/ 201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -332,7 +424,7 @@ var ContactPage = (function () {
 }());
 ContactPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-contact',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-item>\n      <ion-icon item-left class="fa fa-envelope"></ion-icon>\n      taxipet@taxipet.com.br\n    </ion-item>\n    <ion-item>\n      <ion-icon item-left class="fa fa-twitter"></ion-icon>\n      @taxipetOficial\n    </ion-item>\n    <ion-item>\n      <ion-icon item-left class="fa fa-whatsapp"></ion-icon>\n      +55 62 9 9202-9522\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/contact/contact.html"*/
+        selector: 'page-contact',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-item>\n      <ion-icon item-left class="fa fa-envelope"></ion-icon>\n      taxipet@taxipet.com.br\n    </ion-item>\n    <ion-item>\n      <ion-icon item-left class="fa fa-twitter"></ion-icon>\n      @taxipetOficial\n    </ion-item>\n    <ion-item>\n      <ion-icon item-left class="fa fa-whatsapp"></ion-icon>\n      +55 62 9 9202-9522\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/contact/contact.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
 ], ContactPage);
@@ -341,19 +433,19 @@ ContactPage = __decorate([
 
 /***/ }),
 
-/***/ 200:
+/***/ 202:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cadastro_cadastro__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__clientecadastro_clientecadastro__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__login_login__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cadastro_cadastro__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__clientecadastro_clientecadastro__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__login_login__ = __webpack_require__(205);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -442,7 +534,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <img src="{{url}}" alt="your image">\n  <ion-list>\n    <ion-item *ngFor="let feed of feeds">\n      <ion-thumbnail item-left>\n        <img [src]="feed.data.thumbnail">\n      </ion-thumbnail>\n    </ion-item>\n  </ion-list>\n\n  <div class="btn-group-vertical button">\n    <button type="button" class="btn btn-primary" (click)="goToLogin()">\n      <i class="fa fa-lock"></i> Acesso\n    </button>\n    <br />\n    <button type="button" class="btn btn-info" (click)="  openMenu()">\n      <i class="fa fa-plus"></i> Cadastro\n    </button>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <img src="{{url}}" alt="your image">\n  <ion-list>\n    <ion-item *ngFor="let feed of feeds">\n      <ion-thumbnail item-left>\n        <img [src]="feed.data.thumbnail">\n      </ion-thumbnail>\n    </ion-item>\n  </ion-list>\n\n  <div class="btn-group-vertical button">\n    <button type="button" class="btn btn-primary" (click)="goToLogin()">\n      <i class="fa fa-lock"></i> Acesso\n    </button>\n    <br />\n    <button type="button" class="btn btn-info" (click)="  openMenu()">\n      <i class="fa fa-plus"></i> Cadastro\n    </button>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
         __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
@@ -454,13 +546,13 @@ HomePage = __decorate([
 
 /***/ }),
 
-/***/ 202:
+/***/ 203:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CadastroPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -477,7 +569,7 @@ var CadastroPage = (function () {
 }());
 CadastroPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-cadastro',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/cadastro/cadastro.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Cadastro</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <form>\n    <div class="form-group col-md-12">\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">Nome :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.firstName" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n            <span class="input-label">Sobrenome :*</span>\n          </label>\n        <input type="text" class="form-control" ng-model="currentUser.lastName" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-inpu">\n            <span class="input-label">CNH :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.cnh" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">Sobrenome :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.lastName" required>\n      </div>\n\n    </div>\n\n    <button type="submit" class="btn btn-primary btn-group-vertical button">Cadastrar</button>\n\n\n  </form>\n</ion-content>'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/cadastro/cadastro.html"*/
+        selector: 'page-cadastro',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/cadastro/cadastro.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Cadastro</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <form>\n    <div class="form-group col-md-12">\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">Nome :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.firstName" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n            <span class="input-label">Sobrenome :*</span>\n          </label>\n        <input type="text" class="form-control" ng-model="currentUser.lastName" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-inpu">\n            <span class="input-label">CNH :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.cnh" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">Sobrenome :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.lastName" required>\n      </div>\n\n    </div>\n\n    <button type="submit" class="btn btn-primary btn-group-vertical button">Cadastrar</button>\n\n\n  </form>\n</ion-content>'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/cadastro/cadastro.html"*/
     })
 ], CadastroPage);
 
@@ -485,13 +577,13 @@ CadastroPage = __decorate([
 
 /***/ }),
 
-/***/ 203:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ClienteCadastroPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -508,7 +600,7 @@ var ClienteCadastroPage = (function () {
 }());
 ClienteCadastroPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-clientecadastro',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/clientecadastro/clientecadastro.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Cadastro</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <form>\n    <div class="form-group col-md-12">\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">Nome :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.firstName" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n            <span class="input-label">Sobrenome :*</span>\n          </label>\n        <input type="text" class="form-control" ng-model="currentUser.lastName" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-inpu">\n            <span class="input-label">CPF :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.cpf" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">Telefone :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.telefone" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">E-mail :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.email" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">Endereço :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.endereco" required>\n      </div>\n\n    </div>\n\n    <button type="submit" class="btn btn-primary btn-group-vertical button">Cadastrar</button>\n\n\n  </form>\n</ion-content>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/clientecadastro/clientecadastro.html"*/
+        selector: 'page-clientecadastro',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/clientecadastro/clientecadastro.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Cadastro</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <form>\n    <div class="form-group col-md-12">\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">Nome :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.firstName" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n            <span class="input-label">Sobrenome :*</span>\n          </label>\n        <input type="text" class="form-control" ng-model="currentUser.lastName" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-inpu">\n            <span class="input-label">CPF :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.cpf" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">Telefone :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.telefone" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">E-mail :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.email" required>\n      </div>\n\n      <div class="form-control-label">\n        <label class="item item-input">\n          <span class="input-label">Endereço :*</span>\n        </label>\n        <input type="text" class="form-control" ng-model="currentUser.endereco" required>\n      </div>\n\n    </div>\n\n    <button type="submit" class="btn btn-primary btn-group-vertical button">Cadastrar</button>\n\n\n  </form>\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/clientecadastro/clientecadastro.html"*/
     })
 ], ClienteCadastroPage);
 
@@ -516,16 +608,16 @@ ClienteCadastroPage = __decorate([
 
 /***/ }),
 
-/***/ 204:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__start_start__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__start_start__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -550,7 +642,7 @@ var LoginPage = (function () {
 }());
 LoginPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-login',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/login/login.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>Acesso</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n    <form action="">\n        <div class="form-group">\n            <label class="item item-input">\n                <span class="input-label">Usuário :*</span>\n            </label>\n            <input type="text" class="form-control" ng-model="currentUser.firstName" required>\n        </div>\n\n        <div class="form-group">\n            <label class="item item-input">\n                <span class="input-label">Senha :*</span>\n            </label>\n            <input type="text" class="form-control required" ng-model="currentUser.lastName" type="password">\n        </div>\n\n        <button type="submit" class="btn btn-primary btn-group-vertical button" (click)="  goToLogadoStrub()">Entrar</button>\n\n    </form>\n</ion-content>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/login/login.html"*/
+        selector: 'page-login',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/login/login.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>Acesso</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n    <form action="">\n        <div class="form-group">\n            <label class="item item-input">\n                <span class="input-label">Usuário :*</span>\n            </label>\n            <input type="text" class="form-control" ng-model="currentUser.firstName" required>\n        </div>\n\n        <div class="form-group">\n            <label class="item item-input">\n                <span class="input-label">Senha :*</span>\n            </label>\n            <input type="text" class="form-control required" ng-model="currentUser.lastName" type="password">\n        </div>\n\n        <button type="submit" class="btn btn-primary btn-group-vertical button" (click)="  goToLogadoStrub()">Entrar</button>\n\n    </form>\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/login/login.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */]])
 ], LoginPage);
@@ -559,7 +651,7 @@ LoginPage = __decorate([
 
 /***/ }),
 
-/***/ 205:
+/***/ 206:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -608,7 +700,7 @@ var AnimaisPage = (function () {
 AnimaisPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-animais',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/animais/animais.html"*/'<!--\n  Generated template for the AnimaisPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="secondary">\n    <ion-title>\n      Seus Animais\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()"><ion-icon name="add-circle"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n  <ion-list>\n    <table>\n      <thead>\n        <td>Nome</td>\n        <td>Raça</td>\n        <td>Espécie</td>\n      </thead>\n      <tbody>\n        <tr>{{item.title}}</tr>\n        <tr></tr>\n      </tbody>\n    </table>\n    <ion-item>Nome      Raça      Espécie</ion-item>\n    <ion-item *ngFor="let item of items" (click)="viewItem(item)">{{item.title}}      {{item.raca}}       {{item.especie}}</ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/animais/animais.html"*/,
+        selector: 'page-animais',template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/animais/animais.html"*/'<!--\n  Generated template for the AnimaisPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="secondary">\n    <ion-title>\n      Seus Animais\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()"><ion-icon name="add-circle"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n  <ion-list>\n    <table>\n      <thead>\n        <td>Nome</td>\n        <td>Raça</td>\n        <td>Espécie</td>\n      </thead>\n      <tbody>\n        <tr>{{item.title}}</tr>\n        <tr></tr>\n      </tbody>\n    </table>\n    <ion-item>Nome      Raça      Espécie</ion-item>\n    <ion-item *ngFor="let item of items" (click)="viewItem(item)">{{item.title}}      {{item.raca}}       {{item.especie}}</ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/pages/animais/animais.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
 ], AnimaisPage);
@@ -617,13 +709,13 @@ AnimaisPage = __decorate([
 
 /***/ }),
 
-/***/ 206:
+/***/ 207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(226);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -631,41 +723,33 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 225:
+/***/ 226:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_component__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_component__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tabs_tabs__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_about_about__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contact_contact__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_cadastro_cadastro__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_clientecadastro_clientecadastro__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_start_start__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_pet_pet__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_corrida_corrida__ = __webpack_require__(99);
-<<<<<<< HEAD
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_animais_animais__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_authservice_authservice__ = __webpack_require__(273);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__providers_animais_animais__ = __webpack_require__(278);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__providers_animais_animais___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__providers_animais_animais__);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_animais_animais__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_animais2_animais2__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_form_add_animal_form_add_animal__ = __webpack_require__(281);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_status_bar__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_splash_screen__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__providers_authservice_authservice__ = __webpack_require__(274);
->>>>>>> master
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tabs_tabs__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_about_about__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contact_contact__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_cadastro_cadastro__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_clientecadastro_clientecadastro__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_start_start__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_pet_pet__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_corrida_corrida__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_animais_animais__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_animais2_animais2__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_form_add_animal_form_add_animal__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_status_bar__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_splash_screen__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__providers_authservice_authservice__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_animais_animais_service__ = __webpack_require__(276);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -692,10 +776,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> master
+
 var AppModule = (function () {
     function AppModule() {
     }
@@ -722,20 +804,16 @@ AppModule = __decorate([
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["a" /* BrowserModule */],
-<<<<<<< HEAD
-            __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_0__app_component__["a" /* MyApp */])
-=======
             __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_0__app_component__["a" /* MyApp */], {}, {
                 links: [
                     { loadChildren: '../pages/corrida/corrida.module#CorridaPageModule', name: 'CorridaPage', segment: 'corrida', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/form-add-animal/form-add-animal.module#FormAddAnimalPageModule', name: 'FormAddAnimalPage', segment: 'form-add-animal', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/animais2/animais2.module#Animais2PageModule', name: 'Animais2Page', segment: 'animais2', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/pet/pet.module#PetPageModule', name: 'PetPage', segment: 'pet', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/start/start.module#startPageModule', name: 'startPage', segment: 'start', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/animais/animais.module#AnimaisPageModule', name: 'AnimaisPage', segment: 'animais', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/form-add-animal/form-add-animal.module#FormAddAnimalPageModule', name: 'FormAddAnimalPage', segment: 'form-add-animal', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/animais/animais.module#AnimaisPageModule', name: 'AnimaisPage', segment: 'animais', priority: 'low', defaultHistory: [] }
                 ]
             })
->>>>>>> master
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_4_ionic_angular__["b" /* IonicApp */]],
         entryComponents: [
@@ -758,12 +836,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_18__ionic_native_status_bar__["a" /* StatusBar */],
             __WEBPACK_IMPORTED_MODULE_19__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_2__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["c" /* IonicErrorHandler */] },
-<<<<<<< HEAD
-            __WEBPACK_IMPORTED_MODULE_18__providers_authservice_authservice__["a" /* AuthService */],
-            __WEBPACK_IMPORTED_MODULE_19__providers_animais_animais__["AnimaisProvider"]
-=======
-            __WEBPACK_IMPORTED_MODULE_20__providers_authservice_authservice__["a" /* AuthService */]
->>>>>>> master
+            __WEBPACK_IMPORTED_MODULE_20__providers_authservice_authservice__["a" /* AuthService */],
+            __WEBPACK_IMPORTED_MODULE_21__providers_animais_animais_service__["a" /* AnimaisProvider */]
         ]
     })
 ], AppModule);
@@ -772,16 +846,16 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 226:
+/***/ 227:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(199);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -809,7 +883,7 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n<ion-menu [content]="nav">\n\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Pages</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/app/app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n<ion-menu [content]="nav">\n\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Pages</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n'/*ion-inline-end:"/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
@@ -818,7 +892,7 @@ MyApp = __decorate([
 
 /***/ }),
 
-/***/ 274:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -827,7 +901,7 @@ MyApp = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -897,19 +971,15 @@ AuthService = __decorate([
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 278:
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/providers/animais/animais.ts'\n    at Error (native)");
-=======
-/***/ 281:
+/***/ 276:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FormAddAnimalPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AnimaisProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -921,80 +991,27 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-/**
- * Generated class for the FormAddAnimalPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-var FormAddAnimalPage = (function () {
-    function FormAddAnimalPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
+
+/*
+  Generated class for the AnimaisProvider provider.
+
+  See https://angular.io/docs/ts/latest/guide/dependency-injection.html
+  for more info on providers and Angular DI.
+*/
+var AnimaisProvider = (function () {
+    function AnimaisProvider(http) {
+        this.http = http;
     }
-    FormAddAnimalPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad FormAddAnimalPage');
-    };
-    return FormAddAnimalPage;
+    return AnimaisProvider;
 }());
-FormAddAnimalPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-form-add-animal',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/form-add-animal/form-add-animal.html"*/'<!--\n  Generated template for the FormAddAnimalPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>formAddAnimal</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <div class = "animais">\n    <ion-item>\n      <ion-label floating class="input">Username</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n \n    <ion-item>\n      <ion-label floating class="input">Espécie</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label floating class="input">Raça</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label floating class="input">Idade</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n </div>\n</ion-content>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/form-add-animal/form-add-animal.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-], FormAddAnimalPage);
+AnimaisProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+], AnimaisProvider);
 
-//# sourceMappingURL=form-add-animal.js.map
->>>>>>> master
-
-/***/ }),
-
-/***/ 99:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CorridaPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the CorridaPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-var CorridaPage = (function () {
-    function CorridaPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    CorridaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad CorridaPage');
-    };
-    return CorridaPage;
-}());
-CorridaPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-corrida',template:/*ion-inline-start:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/corrida/corrida.html"*/'<!--\n  Generated template for the CorridaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>corrida</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/eduardo/Área de Trabalho/ionic/clone14:18/TaxiPet/TaxiPetP/view/src/pages/corrida/corrida.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-], CorridaPage);
-
-//# sourceMappingURL=corrida.js.map
+//# sourceMappingURL=animais.service.js.map
 
 /***/ })
 
-},[206]);
+},[207]);
 //# sourceMappingURL=main.js.map
