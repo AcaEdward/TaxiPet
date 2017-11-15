@@ -55,7 +55,7 @@ class UsuarioController extends Controller
      * @param  \App\Usuario  $usuario
      * @return \Illuminate\Http\Response
      */
-    public function show(Usuario $usuario)
+    public function show(Usuario $id)
     {
         //
     }
@@ -66,7 +66,7 @@ class UsuarioController extends Controller
      * @param  \App\Usuario  $usuario
      * @return \Illuminate\Http\Response
      */
-    public function edit(Usuario $usuario)
+    public function edit(Usuario $id)
     {
         $usuario = Product::findOrFail($id);
         return view('usuario.edit',compact('usuario'));
@@ -79,7 +79,7 @@ class UsuarioController extends Controller
      * @param  \App\Usuario  $usuario
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Usuario $usuario)
+    public function update(Request $request, Usuario $id)
     {
         $usuario = Usuario::findOrFail($id);
         $usuario->nome = $request->nome;
@@ -92,7 +92,7 @@ class UsuarioController extends Controller
         $usuario->cnh = $request->cnh;
         $usuario->is_admin = $request->is_admin;
         $usuario->save();
-        return redirect()->route('usuario.index')->with('message', 'Usuario atualizado com sucesso!')
+        return redirect()->route('usuario.index')->with('message', 'Usuario atualizado com sucesso!');
     }
 
     /**
@@ -101,10 +101,10 @@ class UsuarioController extends Controller
      * @param  \App\Usuario  $usuario
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Usuario $usuario)
+    public function destroy(Usuario $id)
     {
         $usuario = Usuario::findOrFail($id);
         $animal->delete();
-        return redirect()->route('usuario.index')->with('alert-success', 'Produto deletado com sucesso!');
+        return redirect()->route('usuario.index')->with('alert-success', 'Usuário deletado com sucesso!');
     }
 }
