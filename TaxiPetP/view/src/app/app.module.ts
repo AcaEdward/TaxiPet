@@ -19,6 +19,7 @@ import { AnimaisPage } from '../pages/animais/animais';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { AuthService } from '../providers/authservice/authservice';
+import { AnimaisProvider } from '../providers/animais/animais';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { AuthService } from '../providers/authservice/authservice';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    AuthService
+    AuthService,
+    AnimaisProvider
   ]
 })
 export class AppModule {}

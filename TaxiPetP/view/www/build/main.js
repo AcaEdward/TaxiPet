@@ -586,12 +586,15 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_authservice_authservice__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__providers_animais_animais__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__providers_animais_animais___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__providers_animais_animais__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -635,14 +638,7 @@ AppModule = __decorate([
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_0__app_component__["a" /* MyApp */], {}, {
-                links: [
-                    { loadChildren: '../pages/corrida/corrida.module#CorridaPageModule', name: 'CorridaPage', segment: 'corrida', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/animais/animais.module#AnimaisPageModule', name: 'AnimaisPage', segment: 'animais', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/pet/pet.module#PetPageModule', name: 'PetPage', segment: 'pet', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/start/start.module#startPageModule', name: 'startPage', segment: 'start', priority: 'low', defaultHistory: [] }
-                ]
-            })
+            __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_0__app_component__["a" /* MyApp */])
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_4_ionic_angular__["b" /* IonicApp */]],
         entryComponents: [
@@ -663,7 +659,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__["a" /* StatusBar */],
             __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_2__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["c" /* IonicErrorHandler */] },
-            __WEBPACK_IMPORTED_MODULE_18__providers_authservice_authservice__["a" /* AuthService */]
+            __WEBPACK_IMPORTED_MODULE_18__providers_authservice_authservice__["a" /* AuthService */],
+            __WEBPACK_IMPORTED_MODULE_19__providers_animais_animais__["AnimaisProvider"]
         ]
     })
 ], AppModule);
@@ -794,6 +791,13 @@ AuthService = __decorate([
 ], AuthService);
 
 //# sourceMappingURL=authservice.js.map
+
+/***/ }),
+
+/***/ 278:
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/home/viniciusscs/projetos/TaxiPet/TaxiPetP/view/src/providers/animais/animais.ts'\n    at Error (native)");
 
 /***/ }),
 
