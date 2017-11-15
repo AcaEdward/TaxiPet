@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { CorridaPage } from '../corrida/corrida';
-import { AnimaisPage } from '../animais/animais';
+import { Animais2Page } from '../animais2/animais2';
 import { PetPage } from '../pet/pet';
 
 
@@ -30,7 +30,7 @@ export class startPage {
     this.navCtrl.push(CorridaPage);
   }
   PaginaAnimais(){
-    this.navCtrl.push(AnimaisPage);
+    this.navCtrl.push(Animais2Page);
   }
   paginaPetshops(){
     this.navCtrl.push(PetPage);

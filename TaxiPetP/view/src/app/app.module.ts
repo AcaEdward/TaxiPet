@@ -15,10 +15,13 @@ import { startPage } from '../pages/start/start';
 import { PetPage } from '../pages/pet/pet';
 import { CorridaPage } from '../pages/corrida/corrida';
 import { AnimaisPage } from '../pages/animais/animais';
+import { Animais2Page } from '../pages/animais2/animais2';
+import { FormAddAnimalPage} from '../pages/form-add-animal/form-add-animal';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { AuthService } from '../providers/authservice/authservice';
+import { AnimaisProvider } from '../providers/animais/animais';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,9 @@ import { AuthService } from '../providers/authservice/authservice';
     startPage,
     PetPage,
     AnimaisPage,
+    Animais2Page,
     CorridaPage,
+    FormAddAnimalPage,
   ],
   imports: [
     HttpModule,
@@ -53,13 +58,16 @@ import { AuthService } from '../providers/authservice/authservice';
     startPage,
     PetPage,
     AnimaisPage,
+    Animais2Page,
     CorridaPage,
+    FormAddAnimalPage,
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    AuthService
+    AuthService,
+    AnimaisProvider
   ]
 })
 export class AppModule {}
