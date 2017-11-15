@@ -100,7 +100,7 @@ class UsuarioController extends Controller
     public function destroy($id)
     {
         $usuario = Usuario::findOrFail($id);
-        $animal->delete();
+        $usuario->delete();
         return redirect()->route('usuario.index')->with('alert-success', 'Usuário deletado com sucesso!');
     }
 }
