@@ -5,3 +5,5 @@ Digite os comandos
 - php artisan migrate (Para subir o banco)
 - php artisan db:seed (Para popular o banco com teste)
 
+
+A pasta taxiPet_app é a view
