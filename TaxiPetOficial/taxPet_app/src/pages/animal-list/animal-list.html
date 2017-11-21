@@ -1,0 +1,20 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Listagem de Animais</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let animal of animais" (click)="goToAnimalDetail(animal)">
+      <h2>{{ animal.nome }}</h2>
+      <p>{{ animal.raca}}</p>
+    </ion-item>
+  </ion-list>
+</ion-content>

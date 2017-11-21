@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Animal Detalhe</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card *ngIf="animal">
+    <ion-card-content>
+      <ion-card-title>{{animal.especie}}</ion-card-title>
+      <p>{{animal.nome}}</p>
+      <p>{{animal.raca}}</p>      
+    </ion-card-content>
+  </ion-card>
+</ion-content>
