@@ -11,6 +11,12 @@ Digite os comandos na pasta raiz so projeto
 * Para criar uma Model
   - php artisan make:model Class
   
+* Criar uma seed (Onde rodaremos um teste)
+  - php artisan make:seed ClassTableSeed
+
+* Criar um migration
+  - php artisan make:migration create_classes_table (Nome da Class no plural)
+  
 * Para executar o seridor
   - php artisan serve
 
