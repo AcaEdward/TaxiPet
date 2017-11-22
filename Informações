@@ -1,9 +1,26 @@
 Para rodar o Banco de Dados crie um banco com o nome taxi_pet_oficial
 
-Digite os comandos
+Digite os comandos na pasta raiz so projeto
 
-- php artisan migrate (Para subir o banco)
-- php artisan db:seed (Para popular o banco com teste)
+* php artisan migrate (Para subir o banco)
+* php artisan db:seed (Para popular o banco com teste)
 
+* Para criar um Controller
+  - php artisan make:controller ClassesController -r (Nome da Class no plural)
+
+* Para criar uma Model
+  - php artisan make:model Class
+  
+* Para executar o seridor
+  - php artisan serve
 
 A pasta taxiPet_app é a view
+
+* Nela você executa o servidor com o comando
+  - ionic serve
+
+* Na página vai pedir Login e senha
+
+  - Login: admin@user.com
+  - Senha: secret
+
