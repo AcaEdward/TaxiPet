@@ -9,8 +9,8 @@ use App\Http\Controllers\Controller;
 class AnimaisController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
+     * Apresenta todos os animais cadastrados no App.
+     * 
      * @return \Illuminate\Http\Response
      */
     public function index()
@@ -36,11 +36,23 @@ class AnimaisController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'nome' => 'required',
+            'raca' => 'required',
+            'especie' => 'required'
+        ]);
+        
+        $animal = new Animal();
+        $animal->nome = $request->get('nome');
+        $animal->raca = $request->get('raca');
+        $animal->especie = $request->get('especie');
+        
+        $animal->save();
+        return redirect()->route('animais.index')->with('message', 'Animal cadastrado com sucesso!');
     }
 
     /**
-     * Display the specified resource.
+     * Apresenta ao usuário o animal específico que foi selecionado. 
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response

@@ -11,19 +11,21 @@ import {CheckoutPage} from "../pages/checkout/checkout";
 import {Cart} from "../providers/cart";
 import {AnimalListPage} from "../pages/animal-list/animal-list";
 import {AnimalDetailPage} from "../pages/animal-detail/animal-detail";
+import {AnimalCreatePage} from "../pages/animal-create/animal-create";
 
 @NgModule({
     declarations: [
         MyApp,
         Page1,
         Page2,
-        ProductListPage,
-        ProductDetailPage,
         LoginPage,
         MyCartPage,
         CheckoutPage,
         AnimalListPage,
-        AnimalDetailPage
+        ProductListPage,
+        AnimalDetailPage,
+        AnimalCreatePage,
+        ProductDetailPage
     ],
     imports: [
         IonicModule.forRoot(MyApp)
@@ -33,13 +35,14 @@ import {AnimalDetailPage} from "../pages/animal-detail/animal-detail";
         MyApp,
         Page1,
         Page2,
-        ProductListPage,
-        ProductDetailPage,
         LoginPage,
         MyCartPage,
         CheckoutPage,
         AnimalListPage,
-        AnimalDetailPage
+        ProductListPage,
+        AnimalDetailPage,
+        AnimalCreatePage,
+        ProductDetailPage,
     ],
     providers: [
         {provide: ErrorHandler, useClass: IonicErrorHandler},

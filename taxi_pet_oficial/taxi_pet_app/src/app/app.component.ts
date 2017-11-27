@@ -1,13 +1,14 @@
-import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { Page1 } from '../pages/page1/page1';
 import { Page2 } from '../pages/page2/page2';
 import {LoginPage} from "../pages/login/login";
-import {ProductListPage} from "../pages/product-list/product-list"
 import {MyCartPage} from "../pages/my-cart/my-cart";
 import { AnimalListPage } from '../pages/animal-list/animal-list';
+import {ProductListPage} from "../pages/product-list/product-list";
+import { AnimalCreatePage } from '../pages/animal-create/animal-create';
 
 @Component({
   templateUrl: 'app.html'
@@ -26,9 +27,10 @@ export class MyApp {
     this.pages = [
       { title: 'Page One', component: Page1 },
       { title: 'Page Two', component: Page2 },
-      { title: 'Produtos', component: ProductListPage },
+      { title: 'Animais', component: AnimalListPage },
       { title: 'Meu carrinho', component: MyCartPage },
-      { title: 'Animais', component: AnimalListPage }
+      { title: 'Produtos', component: ProductListPage },
+      { title: 'Cadastrar Animais', component: AnimalCreatePage}
     ];
 
   }
