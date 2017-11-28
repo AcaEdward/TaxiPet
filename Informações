@@ -1,5 +1,16 @@
 Para rodar o Banco de Dados crie um banco com o nome taxi_pet_oficial
 
+No arquivo crie um arquivo IDENTICO ao .env.exemple chamado .env
+
+dentro do arquivo .env substitua 
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=taxi_pet_oficial (nome do seu banco)
+DB_USERNAME=root (nome do seu usuário)
+DB_PASSWORD=123456 (caso tenha senha)
+
 Digite os comandos na pasta raiz do projeto
 
 * php artisan migrate (Para subir o banco)
