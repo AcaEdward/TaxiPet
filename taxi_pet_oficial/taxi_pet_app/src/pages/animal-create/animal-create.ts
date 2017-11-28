@@ -26,9 +26,9 @@ export class AnimalCreatePage {
     headers.set('Authorization', `Bearer ${window.localStorage['token']}`);
     let requestOptions = new RequestOptions({headers});
     this.http.post('http://localhost:8000/api/animais/incluir', {
-        "nome": "string",
-        "raca": "string",
-        "especie": "string"
+        "nome": "Rex",
+        "raca": "Pastor Alemão",
+        "especie": "Cão"
     }, requestOptions)
         .toPromise().then((response) => {
       this.animais = response.json();
