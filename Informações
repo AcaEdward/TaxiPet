@@ -1,6 +1,6 @@
 Para rodar o Banco de Dados crie um banco com o nome taxi_pet_oficial
 
-No arquivo crie um arquivo IDENTICO ao .env.exemple chamado .env
+No arquivo crie um arquivo IDENTICO ao .env.example chamado .env
 
 dentro do arquivo .env substitua 
 
